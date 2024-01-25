@@ -1,0 +1,1192 @@
+{"intents": [
+        {"tag": "greeting",
+   "patterns": [
+      "Hi",
+      "hii",
+      "hiii",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "hay",
+      "how are ya",
+      "whats up",
+      "heyy",
+      "whatsup",
+      "watsup",
+      "Hi there, can you help me with something?",
+      "Hello! I have a question. Can you assist me?",
+      "Hey, I need your help with something.",
+      "Good morning/afternoon/evening! Can you answer a question for me?",
+      "Greetings! I need your assistance with something.",
+      "Hi,can you provide me with some information?",
+      "Hello, can you help me with a task?",
+      "Hey,I'm looking for some guidance. Can you help?",
+      "Good day! Can you assist me with a query?",
+      "Hi,I would like to ask you a question.",
+      "Hello",
+      "Hey there",
+      "Greetings",
+      "Good morning",
+      "Good afternoon",
+      "Good evening",
+      "Salutations",
+      "Yo",
+      "hai",
+      "What's up",
+      "Sup",
+     "Hola",
+      "Namashkar",
+      "Pranam",
+      "Namaste",
+      "Salaam",
+      "Heyya",
+      "Good day",
+      "Pleasure to chat with you",
+      "It's great to talk with you",
+      "Hi chatbot",
+      "Hello chatbot",
+      "Hey chatbot",
+      "What's new",
+      "How's it going",
+      "What's happening",
+      "What can you do for me",
+      "How can I assist you",
+      "Can you help me",
+      "I need your help",
+      "I have a question",
+      "I'm here to chat",
+      "Let's talk",
+      "What's on your mind",
+      "What are you capable of doing"
+],
+   "responses": [
+      "Hello, welcome to AgroAssist!",
+      "Hi there, how can I help?",
+      "Greetings, how may i help you?",
+      "Good day, what brings you here?",
+      "Namaskar! what can I do for you?",
+      "Hey there, how may I assist you?",
+      "Welcome, what can I help you with?",
+      "Nice to meet you, how may I be of assistance?",
+      "Pleasure to chat with you, what can I do for you?",
+      "I'm AgroAssist, how can I help you today?",
+      "My name is AgroAssist , what can I do for you?",
+      "I'm here to help, what can I assist you with?",
+      "What's up, how may I assist you today?",
+      "Hi, how can I be of service?",
+      "Good to see you, what can I help you with?",
+      "Hi there, what brings you to me?",
+      "I'm here to answer your questions, what would you like to know?",
+      "How may I be of assistance to you today?",
+      "Hi, what can I do for you today?",
+      "What can I help you with today?",
+      "I'm here to chat with you, what would you like to talk about?",
+      "How may I assist you in solving your problem?",
+      "I'm here to assist you, what can I do for you today?",
+      "Hi, how can I make your day better?",
+      "What can I do to assist you today?",
+      "I'm here to listen to you, what can I help you with?",
+      "Hi there, how may I assist you with your inquiry?",
+      "I'm here to answer your questions, what would you like to know",
+      "What can I help you with today?",
+      "I'm here to make your life easier, how can I assist you?",
+      "How can I help you today?",
+      "I'm here to make things easier for you, what can I do for you?",
+      "Hi, how can I assist you today?",
+      "What's on your mind, how may I assist you today?",
+      "How may I assist you in resolving your issue?",
+      "I'm here to assist you, what can I do for you today?",
+      "Hi there, what can I help you with?",
+      "How may I be of service to you today?",
+      "I'm here to assist you with your needs, what can I do for you?",
+      "How can I make your day better today?",
+      "I'm here to make things easier for you, what can I help you with?",
+      "Hi there, how may I assist you in solving your problem?",
+      "What can I help you with today",
+      "I'm here to help you out, what can I do for you?",
+      "How may I be of assistance today?",
+      "I'm here to provide answers to your questions, what would you like to know?",
+      "Hi, how can I help you today?",
+      "How may I assist you in achieving your goals?"
+   ],
+"context_set": "greeting"
+        },
+{"tag": "goodbye",
+   "patterns": [
+      "bye",
+      "Thank You",
+      "Talk to you later",
+      "Bye-bye!",
+      "Adios!",
+      "Later!",
+      "Catch you later!",
+      "Talk to you soon!",
+      "Take care!",
+      "Bye for now!",
+      "It's been great chatting with you!",
+      "Have a nice day!",
+      "Have a great weekend!",
+      "Stay safe!",
+      "Have a wonderful day!",
+      "It was nice talking to you!",
+      "Talk to you later",
+      " I'll see you around!",
+      "Goodnight",
+      "Take it easy!",
+      "Thanks for the chat!",
+      "Have a splendid day!",
+      "Enjoy the rest of your day!",
+      "Have a productive day!",
+      "I'll be back later!",
+      "Bye, bot!",
+      "Have a pleasant evening!",
+      "Cheers!",
+      "Happy chatting!",
+      "Have a fabulous day!",
+      "Keep up the good work!",
+      "Have a good one, chatbot!",
+      "Have a lovely day!",
+      "It's been a pleasure talking to you!",
+      "See you soon!",
+      "Have a great day ahead!",
+      "Until next time,see you",
+      "i want to go",
+      "i want to leave",
+      "i want to quit",
+      "i want to exit",
+      "i want to end",
+      "i want to stop",
+      "i want to close",
+      "i want to finish",
+      "i have to leave",
+      "i have to quit",
+      "i have to leave",
+      "i have to quit"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "bye!",
+	"Thank you",
+	"dhanyavaad",
+	"thanks",
+	"tq",
+	"thnx",
+      "Come back soon"
+   ],
+   "context_set": "ending conversation"
+        },
+        
+        {"tag": "Bot",
+         "patterns": ["what is your name",
+                      "who are you",
+                      "name please",
+                      "when are your hours of opertions", 
+                      "what are your working hours", 
+                      "hours of operation",
+                      "working hours",
+                      "hours"],
+         "responses": ["I am your virtual learning assistant"],
+         "context_set": ""
+        },
+{
+"tag": "UNION BANK AGRICULTURE",
+"patterns":[
+"agri loan",
+"Agri Advisory Services",
+"agriculture schemes",
+"agriculture loan",
+"agri schemes",
+"agriculture and rural development"
+],
+"responses":[
+  "Union Kisan Pushpak <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/union-kisan-pushpak.aspx\">Click here</a>",
+   "PM KUSUM Scheme ( Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan ) <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/pmkusum-scheme.asp\">Clickhere</a>",
+   "UNION AGRI SERVICES <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/union-agri-services.aspx\">Click here</a>",
+   "Finance To Hitech Agri Projects <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/finance-hitech-agri-projects.aspx\">Click here</a>",
+   "PURCHASE OF LAND FOR AGRI PURPOSE <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-long-land20purchase.aspx\">Click here</a>",
+   "AGRI CLINICS AND AGRI BUSINESS CENTRES SCHEME <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-long-agri-clinics.aspx\">Click here</a>",
+   "Union Agriculture Infrastructure Loan Scheme (UAILS) <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/uails.aspx\">Click here</a>",
+   "KISAN ALL PURPOSE TERM LOAN <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-long-kisan-all-purpose-term-loan.aspx\">Click here</a>",
+   "KISAN TATKAL LOAN <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-long-kisan-tatkal-scheme.aspx\">Click here</a>"
+  ]
+},
+
+
+
+{
+"tag": "UNION BANK CREDIT",
+"patterns":[
+"short term credit",
+"long term credit",
+"farmers loan",
+"kisan credit card"
+],
+  "responses":[
+   "KISAN CREDIT CARD (UNION GREEN CARD) <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-short-products-service.aspx\">Click here</a>",
+   "KISAN CREDIT CARD (ANIMAL HUSBANDRY & FISHERY) <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/kisan-creditcard-animal-husbandry-fishery.aspx\">Click here</a>"
+  ]
+},
+
+{
+"tag": "UNION BANK FARMER",
+"patterns":[
+"farmers loan",
+"government schemes",
+"kissan laon",
+"kissan schemes",
+"tatkal loans"
+],
+  "responses":[
+   "FINANCE AGAINST WARE HOUSE RECEIPT (WHR FINANCE) <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-shortloan-loanwarehousereceiptfarmer.aspx\">Click here</a>",
+   "PM KUSUM Scheme ( Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan ) <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/pmkusum-scheme.aspx\">Click here</a>",
+   "DEBT SWAP SCHEME <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/debt-swap-scheme.aspx\">Click here</a>",
+   "Financing Farmer Producer Companies (FPC)/ Organization (FPO) <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/finance-to-farmer-producer-organisations.aspx\">Click here</a>",
+   "KISAN ALL PURPOSE TERM LOAN <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-long-kisan-all-purpose-term-loan.aspx\">Click here</a>",
+   "KISAN TATKAL LOAN <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-long-kisan-tatkal-scheme.aspx\">Click here</a>"
+  ]
+},
+
+{
+"tag": "UNION BANK GOLD",
+"patterns":[
+"gold loan",
+"gold schemes",
+"gold bonds",
+"gold ornaments"
+
+],
+  "responses":[
+   " UNION KRISHI KAMDHENU GOLD LOAN SCHEME <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/ukkgl.aspx\">Click here</a>",
+   "SCHEME FOR LOAN AGAINST SOVEREIGN GOLD BONDS <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/scheme-for-loan-against-sovereign-gold-bonds.aspx\">Click here</a>",
+   "SOD AGAINST GOLD ORNAMENTS  <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/sod-against-gold-ornaments.aspx\">Click here</a>"
+  ]
+},
+{
+"tag": "UNION BANK VERMICULTURE",
+"patterns":[
+"vermiculture loan",
+"VERMICULTURE",
+"vermiculture schemes"
+],
+  "responses":[
+   "FINANCE TO VERMI CULTURE  <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/finance-to-vermi-culture.aspx\">Click here</a>"
+  ]
+},
+
+	{
+"tag": "UNION BANK SERICULTURE",
+"patterns":[
+"sericulture",
+"sericulture loan",
+"sericulture schemes"
+],
+  "responses":[
+   "FINANCE TO SERI CULTURE <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/rabd-long-sericulture.aspx\">Click here</a>"
+
+  ]
+},
+
+	{
+"tag": "UNION BANK BEEKEEPING",
+"patterns":[
+"bee keeping loan",
+"beekeeping",
+"bee keeping",
+"beekeeping scheme",
+"bee keeping scheme"
+],
+  "responses":[
+   "FINANCE TO BEE KEEPING <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/finance-to-bee-keeping.aspx\">Click here</a>"
+
+  ]
+},
+
+	{
+"tag": "UNION BANK COLD STORAGE",
+"patterns":[
+"cold storage",
+"cold storage schemes",
+"cold storage loan"
+],
+  "responses":[
+   "Financing To Cold Storage Units <a target=\"_blank\" href=\"https://www.unionbankofindia.co.in/english/financing-cold-storage-units.aspx\">Click here</a>"
+
+  ]
+},
+
+{
+   "tag": "KARNATAKA BANK GOLD",
+   "patterns":[
+      "karnataka gold loan",
+      "karnataka gold schemes",
+	"gold schemes in karnataka"
+   ],
+     "responses":[
+   "KBL AGRI GOLD SCHEME-FINANCE TO MEET SHORT TERM AGRICULTURAL OPERATION EXPENSES <a target=\"_blank\" href=\"https://karnatakabank.com/agri-rural/agri-gold\">Click here</a>"
+     ]
+},
+
+{
+"tag": "KARNATAKA BANK FARMER",
+"patterns":[
+"farmers loan in karnataka",
+"credit finance in karnataka",
+"kissan loan in karnataka",
+"kissan schemes in karnataka",
+"agriculture finance in karnataka"
+],
+  "responses":[
+   "KISAN INSTANT AGRI CREDIT-FINANCE TO MEET AGRICULTURAL EXPENSES <a target=\"_blank\" href=\"https://karnatakabank.com/agri-rural/insta-agri-credit-scheme\">Click here</a>",
+   "SIMPLE PROCESSING AND QUICK SANCTION-CREDIT REQUIREMENT FOR AGRICULTURE AND ALLIED ACTIVITIES <a target=\"_blank\" href=\"https://karnatakabank.com/agri-rural/kisan-credit-card\">Click here</a>"
+  ]
+},
+
+{
+"tag": "KARNATAKA BANK STORAGE & AGRO UNIT",
+"patterns":[
+"karnataka cold storage",
+"cold storage schemes in karnataka",
+"karnataka cold storage loan",
+"agro unit in karnataka",
+"processing unit in karnataka",
+"storage facilities in karnataka",
+"renovation",
+"construction",
+"improvement"
+],
+  "responses":[
+   "KRISHIK GODHAM-FINANCE FOR CONSTRUCTION INCLUDING RENOVATION AND RUNNING OF STORAGE FACILITIES <a target=\"_blank\"href=\"https://karnatakabank.com/agri-rural/krishik-godham\">Click here</a>",
+     
+"KBL AGRO PROCESSING SCHEME-FINANCE FOR ESTABLISHMENT AND/OR IMPROVEMENT OF AGRO PROCESSING UNIT <a target=\"_blank\" href=\"https://karnatakabank.com/agri-rural/agro-process-scheme\">Click here</a>"
+
+  ]
+},
+
+{
+"tag": "KARNATAKA BANK FARM MACHINERY",
+"patterns":[
+"karnataka farm machinery loan",
+"farm machinery loan in karnataka",
+"machinary schemes in karnataka",
+"machinary finance in karnataka",
+"karnataka machinary schemes",
+"karnataka machinary finance"
+],
+  "responses":[
+   "KRISHIK SARATHI-FINANCE TO PURCHASE FARM MACHINERY <a target=\"_blank\"href=\"https://karnatakabank.com/agri-rural/krishik-sarathi\">Click here</a>"
+ ]
+},
+
+{
+   "tag": "KARNATAKA BANK IRRIGATION",
+   "patterns":[
+   "irrigation in karnataka",
+   "minor schemes in karnataka",
+   "water system in karnataka"
+   ],
+     "responses":[
+      "KRISHIK SINCHANA-FINANCING ALL TYPE OF MINOR IRRIGATION PROJECT <a target=\"_blank\"href=\"https://karnatakabank.com/agri-rural/krishik-sinchana\">Click here</a>"
+     ]
+},
+
+{
+   "tag": "KARNATAKA BANK FLORICULTURE & NURSURIES",
+   "patterns":[
+   "floriculture in karnataka",
+   "nursuries in karnataka",
+   "tissue culture in karnataka"
+   ],
+     "responses":[
+      "KRISHIK PUSHPANKURA-FINANCE TO ESTABLISH AND MAINTAIN FLORICULTURE, NURSERIES AND TISSUE CULTURE ACTIVITIES <a target=\"_blank\"href=\"https://karnatakabank.com/agri-rural/krishik-pushpankura\">Click here</a>"
+     ]
+},
+
+{
+"tag": "KARNATAKA GRAMIN BANK CREDIT",
+"patterns":[
+"short term credit in KGB",
+"long term credit in KGB",
+"farmers loan in KGB",
+"kisan credit card in KGB"
+],
+  "responses":[
+    "KCC-Kisan Credit Card Scheme:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/kcc\">Click here</a>"
+  ]
+},
+
+{
+"tag": "KARNATAKA GRAMIN BANK FARMER",
+"patterns":[
+"farmers loan in KGB",
+"government schemes in KGB",
+"Shreyas laon in KGB"
+],
+  "responses":[
+    "Agriculture Marketing Infrastructure:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/ami\">Click here</a>",
+    "Shreyas Agriculture Loan:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/shreyas\">Click here</a>"
+    ]
+},
+
+{
+"tag": "KARNATAKA GRAMIN BANK GOLD",
+"patterns":[
+"gold loan in KGB",
+"special gold schemes in KGB"
+],
+  "responses":[
+    "Agriculture Gold Loan:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/agri-gold\">Click here</a>",
+    "Special Gold Loan:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/special-gold\">Click here</a>"
+    
+  ]
+},
+{
+"tag": "KARNATAKA GRAMIN BANK ALLIED LOANS",
+"patterns":[
+"dairy loan in KGB",
+"livestock loan in KGB",
+"agri clinic in KGB",
+"agri business centers in KGB"
+],
+  "responses":[
+    "Dairy Entrepreneurship Development Scheme:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/deds\">Click here</a>",
+    "National Livestock Mission-EDEG Component Scheme:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/nlm\">Click here</a>",
+    "Establishment of Agri-Clinics and Agri- Business Centres:- <a target=\"_blank\"href=\"https://karnatakagraminbank.com/banking-proserv/agriculture-loans/acabc\">Click here</a>"
+    
+  ]
+},
+
+	{
+"tag": "KOTAK MAHINDRA BANK AGRICULTURE",
+"patterns":[
+"credit in kotak",
+"agri project in kotak",
+"crop loan in kotak",
+"farm equipment in kotak"
+],
+  "responses":[
+    "Credit Guarantee Scheme for MFIs (CGSMFI):- <a target=\"_blank\"href=\"https://www.kotak.com/en/apply-now-form.html?pid=CGSMFI%20\">Click here</a>",
+    "Agri Project:- <a target=\"_blank\"href=\"https://www.kotak.com/en/apply-now-form.html?pid=Agri-Project-Loan\">Click here</a>",
+    "Crop Loan:- <a target=\"_blank\"href=\"https://www.kotak.com/en/business/loans/crop-loan.html\">Click here</a>",
+    "Farm Equipment:- <a target=\"_blank\"href=\"https://www.kotak.com/en/business/loans/farm-equipment/apply-for-farm-equipment.html\">Click here</a>"
+  ]
+},
+
+	{
+"tag": "AU SMALL FINANCE BANK AGRICULTURE",
+"patterns":[
+"agri credit in AU",
+"infrastructure loan in AU",
+"tractor loan in AU",
+"four wheeler loan in AU",
+"business credit in AU"
+],
+  "responses":[
+    "Agri Business Credit:- <a target=\"_blank\"href=\"https://www.aubank.in/business-banking/agri-loans/agri-business-credit\">Click here</a>",
+    "Agri Infrastructure Loan:- <a target=\"_blank\"href=\"https://www.aubank.in/business-banking/agri-loans/agri-infrastructure-loan\">Click here</a>",
+    "Tractor Loan for Farmers:- <a target=\"_blank\"href=\"https://www.aubank.in/business-banking/agriculture-loan/tractor-loan\">Click here</a>",
+    "Four Wheeler Loan for Farmers and Agriculturists:- <a target=\"_blank\"href=\"https://www.aubank.in/business-banking/agriculture-loan/four-wheeler-loan-for-farmers-and-agriculturists\">Click here</a>"
+  ]
+},
+
+	{
+"tag": "EQUITAS SMALL FINANCE BANK",
+"patterns":[
+"agro processor in equitas",
+"agri commodities in equitas",
+"manufacturers in equitas"
+],
+  "responses":[
+    "Agro Processors/Manufacturers:- <a target=\"_blank\"href=\"https://www.equitasbank.com/agro-processors/manufacturers\">Click here</a>",
+    "Traders in Agri Commodities:- <a target=\"_blank\"href=\"https://www.equitasbank.com/traders-in-agri-commodities\">Click here</a>"
+  ]
+},
+
+{
+   "tag": "KARNATAKA BANK GOLD",
+   "patterns":[
+      "karnataka gold loan",
+      "karnataka gold schemes",
+	"gold schemes in karnataka"
+   ],
+     "responses":[
+   "KBL AGRI GOLD SCHEME-FINANCE TO MEET SHORT TERM AGRICULTURAL OPERATION EXPENSES <a target=\"_blank\"href=\"https://karnatakabank.com/agri-rural/agri-gold\">Click here</a>"
+     ]
+},
+
+{
+"tag": "UJJIVAN SMALL FINANCE BANK FARMER",
+"patterns":[
+"farmers loan in ujjivan",
+"credit card in ujjivan",
+"crop loan in ujjivan",
+"poultry in ujjivan",
+"pisciculture in ujjivan"
+],
+  "responses":[
+    "Kisan Pragati Card(KPC):- <a target=\"_blank\"href=\"https://www.ujjivansfb.in/rural/borrow/kisan-pragati-card\">Click here</a>",
+    "KPC–Poultry:- <a target=\"_blank\"href=\"https://www.ujjivansfb.in/rural/borrow/kisan-pragati-card/kpc-poultry\">Click here</a>",
+    "KPC–Crop Loan:- <a target=\"_blank\"href=\"https://www.ujjivansfb.in/rural/borrow/kisan-pragati-card/kpc-crop-loan\">Click here</a>",
+    "KPC–Pisciculture:- <a target=\"_blank\"href=\"https://www.ujjivansfb.in/rural/borrow/kisan-pragati-card/kpc-pisciculture\">Click here</a>"
+  ]
+},
+
+{
+"tag": "ANDHRA PRADESH GRAMEENA VIKAS BANK",
+"patterns":[
+"dairy loans in andhra",
+"mechanization loan in andhra",
+"kcc loan in andhra",
+"poultry loans in andhra",
+"tractor loans in andhra",
+"farm mechaniztion in andhra"
+],
+  "responses":[
+    "Dairy Loans:- <a target=\"_blank\"href=\"https://www.apgvbank.in/advance/Dairy-Loans\">Click here</a>",
+    "Farm Mechanization Loans:- <a target=\"_blank\"href=\"https://www.apgvbank.in/advance/Farm-Mechanization-Loans\">Click here</a>",
+    "KCC Loans:- <a target=\"_blank\"href=\"https://www.apgvbank.in/advance/Crop-Loans-KCC\">Click here</a>",
+    "Self Help Group Loans:- <a target=\"_blank\"href=\"https://www.apgvbank.in/advance/SHG-Loans\">Click here</a>",
+    "Poultry Loans:- <a target=\"_blank\"href=\"https://www.apgvbank.in/advance/Poultry-Loan\">Click here</a>",
+    "Tractor Loans:- <a target=\"_blank\"href=\"https://www.apgvbank.in/advance/AATL-Tractor-Loans\">Click here</a>"
+  ]
+},
+
+{
+"tag": "TAMIL NADU GRAMA BANK CREDIT",
+"patterns":[
+"credit card in tamil",
+"kissan credit in tamil",
+"crop credit in tamil",
+"animal husbandry credit in tamil",
+"fisheries credit in tamil",
+"kcc in tamil"
+],
+  "responses":[
+    "Kisan Credit Card(KCC)-Crop:- <a target=\"_blank\"href=\"https://www.tamilnadugramabank.com/loans/agriculture/kisan-credit-card-crop\">Click here</a>",
+    "Kisan Credit Card(KCC)-Animal Husbandry:- <a target=\"_blank\"href=\"https://www.tamilnadugramabank.com/loans/agriculture/kisan-credit-card-animal-husbandry\">Click here</a>",
+    "Kisan Credit Card(KCC)-Fisheries:- <a target=\"_blank\"href=\"https://www.tamilnadugramabank.com/loans/agriculture/kisan-credit-card-fisheries\">Click here</a>",
+    "Agri Jewel Loan:- <a target=\"_blank\"href=\"https://www.tamilnadugramabank.com/loans/agriculture/agri-jewel-loan\">Click here</a>"
+ ]
+},
+
+{
+   "tag": "TAMIL NADU GRAMA BANK AGRICULTURE",
+   "patterns":[
+   "agri allied term in tamil",
+   "agri term in tamil",
+   "agri loan in tamil"
+   ],
+     "responses":[
+        "Agri Allied Term Loan:- <a target=\"_blank\"href=\"https://www.tamilnadugramabank.com/loans/agriculture/agri-allied-term-loan\">Click here</a>",
+        "Agri Term Loan:- <a target=\"_blank\"href=\"https://www.tamilnadugramabank.com/loans/agriculture/agri-term-loan\">Click here</a>"
+     ]
+},
+
+{
+   "tag": "SOUTH INDIAN BANK AGRICULTURE",
+   "patterns":[
+   "agriflex in south",
+   "mobiloan in south",
+   "gold loan in south"
+   ],
+     "responses":[
+        "Agriflex:- <a target=\"_blank\"href=\"https://www.southindianbank.com/content/personal-banking/agriflex/91\">Click here</a>",
+        "Mobiloan Agricultural:- <a target=\"_blank\"href=\"https://www.southindianbank.com/content/personal-banking/mobiloan-agricultural/96\">Click here</a>",
+        "Gold Loan-Agriculture Segment:- <a target=\"_blank\"href=\"https://www.southindianbank.com/content/personal-banking/gold-loan-agriculture-segment/945\">Click here</a>"
+     ]
+},
+
+{
+    "tag": "KERALA GRAMIN BANK AGRICULTURE",
+    "patterns":[
+    "kisan credit in kerala",
+    "gold loan in kerala",
+    "term loan in kerala",
+    "vehicle loan in kerala",
+    "agri loan in kerala",
+    "infrastructure fund in kerala",
+    "samarga plus in kerala",
+    "sgh in kerala",
+    "linkage in kerala",
+    "trem loan in kerala",
+    "over draft in kerala",
+    "mudra loan in kerala",
+    "pmay in kerala"
+    ],
+      
+    "responses":[
+        "Kisan Credit Card:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/kcc\">Click here</a>",
+"Agriculture Gold Loans:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/agl\">Click here</a>",
+"Agriculture Term Loans:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/atl\">Click here</a>",
+"Agricultural Over Draft:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/aod\">Click here</a>",
+"Agri Vehicle Loans:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/avl\">Click here</a>",
+"Agriculture Infrastructure Fund:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/aif\">Click here</a>",
+"KGB Samagra Plus:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/ksp\">Click here</a>",
+"SHG Linkage:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/shg\">Click here</a>",
+"Subsidy Linked Schemes:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/subsidy-linked-scheme\">Click here</a>",
+"NRLM / NULM:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/nrlm-nulm\">Click here</a>",
+"Mudra Loans:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/mudra\">Click here</a>",
+"Safai Karmachari:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/safai\">Click here</a>",
+"PMAY:- <a target=\"_blank\"href=\"https://keralagbank.com/agrimicro/pmay\">Click here</a>"
+      ]
+ },
+
+{
+"tag": "STATE BANK OF INDIA CROP LOAN",
+"patterns":[
+"kcc in sbi",
+"credit card in sbi",
+"samriddhi rin in sbi"
+],
+"responses":[
+  "Kisan Credit Card (KCC):-  <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/crop-loan/kisan-credit-card\">Click here</a>",
+  "Kisan Samriddhi Rin:-  <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agri-rural/agriculture-banking/kisan-samriddhi-rin\">Click here</a>"
+]
+},
+
+{
+"tag": "STATE BANK OF INDIA GOLD LOAN",
+"patterns":[
+"gold loan in sbi"
+],
+  "responses":[  
+"Multi Purpose Gold Loan:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/gold-loan/multi-purpose-gold-loan\">Click here</a>"
+  ]
+},
+
+{
+"tag": "STATE BANK OF INDIA MICRO CREDIT",
+"patterns":[
+"micro credit in sbi",
+"shg in sbi"
+],
+  "responses":[
+    "SHG Bank Credit Card Linkage:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/micro-credit/shg-bank-credit-linkage\">Click here</a>"
+  ]
+},
+
+{
+"tag": "STATE BANK OF INDIA FARM MECHANIZATION LOAN",
+"patterns":[
+"tractor loan in sbi",
+"harvester in sbi",
+"minor irrigation in sbi",
+"power tillers in sbi"
+
+],
+  "responses":[
+    "Tractor Loan:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/farm-mechanization-loan/tractor-loan\">Click here</a>",
+    "Finance for Combine Harvester:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/farm-mechanization-loan/combine-harvester-loan\">Click here</a>",
+    "Composite Minor Irrigation:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/farm-mechanization-loan/drip-irrigation\">Click here</a>",
+    "Financing Power Tillers:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/financing-power-tiller\">Click here</a>"
+  ]
+},
+{
+"tag": "STATE BANK OF INDIA ALLIED AND MISCELLANOUS ACTIVITIES",
+"patterns":[
+"allied activities",
+"kcc for allied in sbi",
+"mudra in sbi",
+"marketing loan in sbi",
+"agri clinics in sbi",
+"cold storage in sbi",
+"cold storage schemes in sbi",
+"cold storage loan in sbi",
+"agri scheme in sbi",
+"infrastructure loan in sbi",
+"food processing in sbi",
+"micro unit in sbi",
+"kusum scheme in sbi",
+"livelihood mission"
+],
+  "responses":[
+    "KCC for Allied Activities (ANIMAL HUSBANDRY & FISHERIES):- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/kcc-for-alied-activities\">Click here</a>",
+    "Pradhan Mantri Mudra Yojna (PMMY):- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/pradhan-mantri-mudra-yojna\">Click here</a>",
+    "AgriEnterprises Loan:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/allied-activities/agri-enterprise-loan\">Click here</a>",
+    "Produce Marketing Loan:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/miscellaneous-activities/produce-marketing-loan\">Click here</a>",
+    "Agri clinics and Business Centers:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/miscellaneous-activities/setting-up-of-agri-clinic-and-agri-business-centres\">Click here</a>",
+    "Scheme for Debt Swapping of Borrowers:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/miscellaneous-activities/scheme-for-debt-swapping-of-borrowers\">Click here</a>",
+    "Construction of Cold Storage and Warehouses Scheme:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/construction-of-cold-storage/-warehouse-scheme\">Click here</a>",
+    "Rin Samadhan:- <a target=\"_blank\"href=\"https://sbi.co.in/web/personal-banking/infonservices/misc/rinn-samadhan-2023-24-scheme\">Click here</a>",
+    "Agri Infrastructure Scheme:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/government-schemes/aif-scheme\">Click here</a>",
+    "PM Formalizing of Micro Food Processing Enterprise (PMFMFPE's):- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/government-schemes/pmfme-scheme\">Click here</a>",
+    "PM KUSUM Scheme:- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/agriculture-banking/government-schemes/pm-kusum-scheme-a\">Click here</a>",
+    "Deendayal Antyodaya Yojana- National Urban Livelihoods Mission (DAY- NULM):- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/nulm\">Click here</a>",
+    "Prime Minister’s Employment Generation Programme (PMEGP):- <a target=\"_blank\"href=\"https://sbi.co.in/web/agri-rural/pmegp\">Click here</a>"
+  ]
+},
+
+	{
+"tag": "UCO BANK AGRICULTURE",
+"patterns":[
+"agri clinic in uco",
+"agri bussiness in uco",
+"mudra in uco",
+"marketing infrastructure in uco",
+"animal husbandry in uco",
+"fishery in uco",
+"agro unit in uco",
+"green house in uco",
+"gold loan in uco",
+"farming in uco",
+"processing unit in uco",
+"solar irrigation in uco",
+"pumpset in uco",
+"schemes in uco",
+"short term credit in uco",
+"tractor loan in uco",
+"tiller loan in uco",
+"horticulture in uco",
+"plantation in uco",
+"cold storage in uco",
+"storage unit in uco",
+"warehouse in uco"
+],
+  "responses":[
+    "Agri Clinic and Agri Bussiness Centre (ACABC):- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Agri Mudra Loan:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "AHIDF (Animal Husbandary Infrastructure Fund):- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "AMI (Agricultural Marketing Infrastructure):- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "KCC for Animal Husbandry & Fishery:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Uco Krishi Kanakadhara Scheme:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Agriculture Infrastructure Fund (AIF):-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Uco Food and Agro Processing Unit:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Farmer Producers Companies(FPC)/Farmer Producers Organisations(FPOs):-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Green House Farming:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "KCC Gold loan:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Uco Kisan all Purpose Term Loan Scheme:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan(PM KUSUM):- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "PMFME:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Rice Sheller:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "DAY NRLM:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Two-Wheeler, Light & Medium Vehicle for Farmer:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Fishery:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Scheme of financing Construction/Expansion/Modernization of Cold Storage & Cold-Chain Instructure:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Scheme of financing Horticulture & Plantation Crops:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "UCO FPC (Farmer Producer Company) & UCO NFPC (UCO Non-Farmer Producer Company):- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Tractor /Power Tiller Loan:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Short Term Loan to Cold Storage Units:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Kisan Credit Card (KCC):-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "UCO Kisan Bhoomi Vridhi(UKBV):- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "UCO Kisan Tatkal Scheme:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "UCO Estate Purchase Loan Scheme:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Scheme for financing farmers for Marketing Agriculture Produce:- <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>",
+    "Scheme for Solar Irrigation Pumpset:-  <a target=\"_blank\"href=\"https://www.ucobank.com/English/agriculture-credit.aspx\">Click here</a>"
+  ]
+},
+
+{
+    "tag": "CANARA BANK AGRICULTURE",
+    "patterns":[
+    "agri loan in canara",
+    "Agri Advisory Services in canara",
+    "agriculture schemes in canara",
+    "agriculture loan in canara",
+    "agri schemes in canara",
+    "agriculture and rural development in canara",
+    "shg in canara"
+    ],
+    "responses":[
+    "Pradhan Mantri Fasal Bima Yojana:- <a target=\"_blank\"href=\"https://canarabank.com/pages/Pradhan-Mantri-Fasal-Bima-Yojana\">Click here</a>",
+    "Purchase Of Land For Agriculture Purpose:- <a target=\"_blank\"href=\"https://canarabank.com/pages/Scheme-for-Financing-Farmers-For-Purchase-of-Land-For-Agricultural-Purpose\">Click here</a>",
+    "Scheme for Providing Credit to Tenant Farmers & Oral Lessees for raising crops through Joint Liability Groups(JLG's):- <a target=\"_blank\"href=\"https://canarabank.com/pages/Scheme-for-credit-to-JLGs\">Click here</a>",
+    "Lending To Micro Credit Groups (MCG’s):- <a target=\"_blank\"href=\"https://canarabank.com/pages/lending-to-micro-credit-groups\">Click here</a>",
+    "Scheme For Financing Through Self Help Groups (SHG’s):- <a target=\"_blank\"href=\"https://canarabank.com/pages/Scheme-for-financing-through-shgs\">Click here</a>"
+      ]
+    },
+    
+    {
+    "tag": "CANARA BANK CREDIT",
+    "patterns":[
+    "short term credit in canara",
+    "long term credit in canara",
+    "farmers loan in canara",
+    "kisan credit card in canara",
+    "mitra card in canara",
+    "kisan od in canara",
+    "produce loan in canara"
+    ],
+      "responses":[
+    "Kisan Credit Card Scheme:- <a target=\"_blank\"href=\"https://canarabank.com/pages/kisan-credit-card-scheme\">Click here</a>",
+    "Krishi Mitra Card Scheme:- <a target=\"_blank\"href=\"https://canarabank.com/pages/krishi-mitra-card-scheme\">Click here</a>",
+    "Kisan All-purpose Term Loan:- <a target=\"_blank\"href=\"https://canarabank.com/pages/kisan-all-purpose-term-loan\">Click here</a>",
+    "Canara Kisan OD:- <a target=\"_blank\"href=\"https://canarabank.com/pages/canara-kisan-od\">Click here</a>",
+    "Kisan Credit Card Scheme Working capital for Animal husbandry:- <a target=\"_blank\"href=\"https://canarabank.com/pages/kisan-credit-card\">Click here</a>",
+    "Produce Loan against Electronic Negotiable Warehouse Receipts (e-NWRs):- <a target=\"_blank\"href=\"https://canarabank.com/pages/produce-loan-against-electronic-negotiable\">Click here</a>"
+    ]
+    },
+    
+    {
+    "tag": "CANARA BANK FARMER",
+    "patterns":[
+    "farmers loan in canara",
+    "government schemes in canara",
+    "kissan loan in canara",
+    "kissan schemes in canara",
+    "tatkal loans in canara"
+    ],
+      "responses":[
+        "Kisan Tatkal:- <a target=\"_blank\"href=\"https://canarabank.com/pages/kisan-tatkal\">Click here</a>",
+    "Scheme For Redemption Of Debts Of Farmers From Non-institutional Sources:- <a target=\"_blank\"href=\"https://canarabank.com/pages/scheme-for-redemption-of-debts\">Click here</a>",
+    "Agricultural D R I Loans:- <a target=\"_blank\"href=\"https://canarabank.com/pages/agricultural-dri-loans\">Click here</a>",
+    "Scheme For Financing Micro Finance Instittutions(MFI’s):- <a target=\"_blank\"href=\"https://canarabank.com/pages/scheme-for-financing-micro-finance-institutions\">Click here</a>",
+    "Financing to Farmer's Producer Organisation:- <a target=\"_blank\"href=\"https://canarabank.com/pages/financing-to-farmer%E2%80%99s-producer-organization\">Click here</a>",
+    "Scheme for financing ‘custom hiring centers’ for purchase of farm:- <a target=\"_blank\"href=\"https://canarabank.com/pages/scheme-for-financing-customer-hiring-centres\">Click here</a>"
+      ]
+    },
+    
+    {
+    "tag": "CANARA BANK REARING",
+    "patterns":[
+    "rearing loan",
+    "sheep and goat rearing",
+    "poultry and duck rearing",
+    "piggery"
+    ],
+      "responses":[
+        "Sheep & Goat Rearing Loan:- <a target=\"_blank\"href=\"https://canarabank.com/pages/sheep-&-goat-rearing-loans\">Click here</a>",
+        "Poultry & Duck Rearing:- <a target=\"_blank\"href=\"https://canarabank.com/pages/poultry-&-duck-rearing-loans\">Click here</a>",
+        "Piggery Loan:- <a target=\"_blank\"href=\"https://canarabank.com/pages/piggery-loan\">Click here</a>"
+      ]
+    },
+    
+        {
+    "tag": "CANARA BANK SERICULTURE",
+    "patterns":[
+    "sericulture in canara",
+    "sericulture loan in canara",
+    "sericulture schemes in canara"
+    ],
+      "responses":[
+        "Sericulture Loan:- <a target=\"_blank\"href=\"https://canarabank.com/pages/sericulture-loans\">Click here</a>"
+      ]
+    },
+    
+        {
+    "tag": "CANARA BANK BEEKEEPING",
+    "patterns":[
+    "bee keeping loan in canara",
+    "beekeeping in canara",
+    "bee keeping in canara",
+    "beekeeping scheme in canara",
+    "bee keeping scheme in canara"
+    ],
+      "responses":[
+        "Bee Keeping (Apiculture):- <a target=\"_blank\"href=\"https://canarabank.com/pages/bee-keeping-loans\">Click here</a>"
+      ]
+    },
+    
+        {
+    "tag": "CANARA BANK COLD STORAGE AND BIOGASS",
+    "patterns":[
+    "cold storage in canara",
+    "cold storage schemes in canara",
+    "rural godwon",
+    "farm level storage",
+    "biogass plant in canara"
+    ],
+      "responses":[
+        "Rural godown:- <a target=\"_blank\"href=\"https://canarabank.com/pages/rural-godown\">Click here</a>",
+        "Cold storage:- <a target=\"_blank\"href=\"https://canarabank.com/pages/cold-storage\">Click here</a>",
+        "Development Loans For Farm Level Storage Structures:- <a target=\"_blank\"href=\"https://canarabank.com/pages/development-loans-for-farm-level-storage-structures\">Click here</a>",
+        "Biogas Plant Loan:- <a target=\"_blank\"href=\"https://canarabank.com/pages/biogas-plant-loan\">Click here</a>"
+      ]
+    },
+    
+    {
+       "tag": "CANARA BANK IRRIGATION",
+       "patterns":[
+       "irrigation in canara",
+       "minor schemes in canara",
+       "water system in canara",
+       "solar pumpset in canara",
+       "calamity loans in canara"
+       ],
+         "responses":[
+          "Canara Consumption Loan in Natural Calamity Affected Areas:- <a target=\"_blank\"href=\"https://canarabank.com/pages/Canara-Consumption-Loan\">Click here</a>",
+    "Minor Irrigation:- <a target=\"_blank\"href=\"https://canarabank.com/pages/minor-irrigation\">Click here</a>",
+    "Financing Solar Pumpset For Irrigation:- <a target=\"_blank\"href=\"https://canarabank.com/pages/financing-solar-pumpset-for-irrigation\">Click here</a>"
+         ]
+    },
+    
+    {
+       "tag": "CANARA BANK PRODUCE AND MACHINERIES",
+       "patterns":[
+      "farm development in canara",
+      "horticulture in canara",
+      "planr=tation in canara",
+      "machinery in canara",
+      "estate purchase loan",
+      "diary loan",
+      "agri clinics in canara",
+      "fisheries loan in canara",
+      "hi tech agriculture in canara",
+      "farm development in canara "
+       ],
+         "responses":[
+          "Farm Development Loan:- <a target=\"_blank\"href=\"https://canarabank.com/pages/farm-development-loans\">Click here</a>",
+          "Development Loans For Plantation/Horticulture:- <a target=\"_blank\"href=\"https://canarabank.com/pages/Development-loans-for-plantation\">Click here</a>",
+          "Farm Forestry Loans:- <a target=\"_blank\"href=\"https://canarabank.com/pages/farm-forestry-loans\">Click here</a>",
+          "Scheme For Financing Setting Up Of Agri Clinics / Agri Business Centres:- <a target=\"_blank\"href=\"https://canarabank.com/pages/scheme-for-financing-setting-up-of-agri-clinics\">Click here</a>",
+          "Farm Machinery Loans:- <a target=\"_blank\"href=\"https://canarabank.com/pages/farm-machinery-loans\">Click here</a>",
+          "Scheme For Financing Agriculturists-for Purchase Of Vehicles (Allhv):- <a target=\"_blank\"href=\"https://canarabank.com/pages/scheme-for-financing-ALLHV\">Click here</a>",
+          "Dairy Loans:- <a target=\"_blank\"href=\"https://canarabank.com/pages/Dairy-Loans\">Click here</a>",
+          "Estate Purchase Loan (EPL):- <a target=\"_blank\"href=\"https://canarabank.com/pages/estate-purchase-loan\">Click here</a>",
+          "Produce Loans:- <a target=\"_blank\"href=\"https://canarabank.com/pages/produce-loans\">Click here</a>",
+          "Fisheries Loan:- <a target=\"_blank\"href=\"https://canarabank.com/pages/fisheries\">Click here</a>",
+          "Hi-tech agriculture:- <a target=\"_blank\"href=\"https://canarabank.com/pages/hitech-agriculture\">Click here</a>"
+        ]
+    },
+
+    {
+        "tag": "BANK OF BARODA AGRICULTURE",
+        "patterns":[
+        "agri loan in bob",
+        "Agri Advisory Services in bob",
+        "agriculture schemes in bob",
+        "agriculture loan in  bob",
+        "agri schemes in bob",
+        "agriculture and rural development in bob",
+        "tatkal loans in bob"
+        ],
+        "responses":[
+          "Pradhan Mantri Kisan Urja Suraksha Evam Uthaan Mahabhiyaan (PM-KUSUM Scheme):- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/pradhan-mantri-kisan-urja-suraksha-evam-uthaan-mahabhiyaan\">Click here</a>",
+          "Scheme for Financing NBFC-MFIs:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-financing-nbfc-mfis\">Click here</a>",
+          "Scheme for Financing Pradhan Mantri Matsya Sampada Yojana (PMMSY):- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-financing-pradhan-mantri-matsya-sampada-yojana\">Click here</a>",
+          "Animal Husbandry Infrastructure Development fund (AHIDF):- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/animal-husbandry-infrastructure-development-fund\">Click here</a>",
+          "Scheme for Financing under Agriculture Infrastructure Fund:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-financing-under-agriculture-infrastructure-fund\">Click here</a>",
+          "Scheme for Purchase of Agriculture Land:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-purchase-of-agriculture-land\">Click here</a>",
+          "Shahari Bagwani Yojana:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/shahari-bagwani-yojana\">Click here</a>",
+          "Baroda Kisan Tatkal Loan Scheme:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/baroda-kisan-tatkal-loan-scheme\">Click here</a>"
+          ]
+        },
+        
+        {
+        "tag": "BANK OF BARODA CREDIT",
+        "patterns":[
+        "baroda credit",
+        "planters card",
+        "animal husbandry card",
+        "fisheries card",
+        "kisan credit card in bob"
+        ],
+          "responses":[
+            "Planters Card Scheme:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/planters-card-scheme\">Click here</a>",
+            "Baroda Kisan Credit Card (BKCC):- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/baroda-kisan-credit-card\">Click here</a>",
+            "Baroda Animal Husbandry and Fisheries Kisan Credit Card (BAHFKCC) Scheme:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/baroda-animal-husbandry-and-fisheries-kisan-credit-card-scheme\">Click here</a>"
+          ]
+        },
+        
+        {
+        "tag": "BANK OF BARODA FARM DEVELOPMENT",
+        "patterns":[
+        "farm development in bob",
+        "animal husbandry",
+        "estates and orchards",
+        "mini diary",
+        "farm development activities",
+        "poultry in bob",
+        "fishery in bob"
+        ],
+          "responses":[
+            "Financing Development of Dairy, Poultry, Fishery, etc.:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/financing-development-of-dairy-poultry-fishery-etc\">Click here</a>",
+            "Purchase of Estates/Orchards Growing Traditional Plantation Crops:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/purchase-of-estates-orchards-growing-traditional-plantation-crops\">Click here</a>",
+            "Scheme for Financing Farmer Producer Companies / Organizations (FPCs / FPOs):- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/financing-farmer-producer-companies\">Click here</a>",
+            "Scheme for Financing Farm Development Activities:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/agricultural-land-development-loan\">Click here</a>",
+            "Scheme for Financing Mini Dairy Units:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-financing-mini-dairy-units\">Click here</a>"   
+          ]
+        },
+        
+        {
+        "tag": "BANK OF BARODA STORAGE STRUCTURES",
+        "patterns":[
+        "cold storage in bob",
+        "sanitation scheme",
+        "farm buildings",
+        "agriculture produce godwon"
+        ],
+          "responses":[
+            "Baroda Sanitation Scheme:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/baroda-sanitation-scheme\">Click here</a>",
+            "Construction Of Storage Structure Projects:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/construction-of-storage-structure-projects\">Click here</a>",
+            "Warehouse Receipt Financing:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/financing-against-warehouse-receipt\">Click here</a>",
+            "Financing Construction of Farm Buildings Structures:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/financing-construction-of-farm-buildings-structures\">Click here</a>",
+            "Loans for Solis/Godowns for Storage of Agriculture Produce:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/silos-godowns-for-storage-of-agriculture-produce\">Click here</a>"
+          ]    
+        },
+        {
+        "tag": "BANK OF BARODA TRANSPORTATION",
+        "patterns":[
+        "four wheeler",
+        "two wheeler",
+        "tractors for farms",
+        "heavy machinery",
+        "tractor loan in bob"
+        ],
+          "responses":[
+            "Financing Four Wheeler Loans to Farmer:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/financing-four-wheeler-loans-to-farmer\">Click here</a>",
+            "Two Wheelers (Motorcycle/Scooter) Loan to Farmer:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/two-wheelers-motorcycle-scooter-loan-to-farmer\">Click here</a>",
+            "Tractor Loans:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/new-scheme-for-tractor\">Click here</a>",
+            "Financing Tractors and Heavy Agriculture Machinery:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/financing-tractors-heavy-agriculture-machinery\">Click here</a>"  
+          ]
+        },
+        
+            {
+        "tag": "BANK OF BARODA HORTICULTURE",
+        "patterns":[
+        "horticulture in bob",
+        "horticulture loan in bob"
+        ],
+          "responses":[
+            "Horticulture Loan Scheme:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-development-of-horticulture\">Click here</a>"
+        
+          ]
+        },
+        
+            {
+        "tag": "BANK OF BARODA IRRIGATION AND SOLAR",
+        "patterns":[
+        "irrigation in bob",
+        "solar home lights",
+        "photovoltaic pumpsets",
+        "home lighting scheme",
+        "solar pumpsets in bob"
+        ],
+          "responses":[
+            "Financing Irrigation:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/financing-irrigation\">Click here</a>",
+            "Financing Solar Home Lighting Scheme:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/installation-of-solar-home-lighting-systems\">Click here</a>",
+            "Loan for Installation of Solar Photovoltaic Pump Sets:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/loan-for-installation-of-solar-photovoltaic-pump-sets\">Click here</a>"
+          ]
+        },
+        
+            {
+        "tag": "BANK OF BARODA AGRO PROCESSING UNIT",
+        "patterns":[
+        "food processing scheme",
+        "agro business in bob",
+        "working capital assistance in bob",
+        "agri clinics in bob",
+        "agri business centers in bob",
+        "overdraft schemes"
+        ],
+          "responses":[
+            "Financing under PM Formalization of Micro Food Processing Scheme:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-financing-facility-under-pm-formalization-of-micro-food-processing\">Click here</a>",
+            "Credit Facility for Food and Agro Business with Warehouse/Storage Receipts Loans:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/warehouse-storage-receipts-to-food-and-agro-unit-enjoying-credit-facility-with-our-bank\">Click here</a>",
+            "Advances to Food Agro Based Units Under Agriculture:-  <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/advances-to-food-agro-based-units-under-agriculture\">Click here</a>",
+            "Financing Agriclinics & Agribusiness Centres by Agriculture Graduates:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/agriclinics-agribusiness-centres-by-agriculture-graduates\">Click here</a>",
+            "Overdraft Scheme for Working Capital Assistance to the Food Agro Processing Unit:- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/overdraft-scheme-for-working-capital-assistance-to-the-food-agro-processing-unit\">Click here</a>"
+          ]
+        },
+        
+        {
+           "tag": "BANK OF BARODA BIOGAS",
+           "patterns":[
+              "biogas plant in bob",
+              "compressed biogas",
+            "gobar gas in bob"
+           ],
+             "responses":[
+              "Scheme for Financing Compressed Biogas (CBG):- <a target=\"_blank\"href=\"https://www.bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/scheme-for-financing-compressed-bio-gas\">Click here</a>",
+              "Financing Installation of Gobar Gas/Bio-gas Plants:- <a target=\"_blank\"href=\"https://bankofbaroda.in/business-banking/rural-and-agri/loans-and-advances/installation-of-gobar-gas-bio-gas-plants\">Click here</a>"
+             ]
+        },
+
+        {
+            "tag": "INDIAN BANK GOLD",
+            "patterns":[
+               "indian gold loan",
+               "indian gold schemes",
+             "jewel schemes"
+            ],
+              "responses":[
+               "Agricultural Jewel Loan Scheme:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/agricultural-jewel-loan-scheme/\">Click here</a>",
+               "KCC Marine Gold Scheme:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/kcc-marine-gold-scheme/\">Click here</a>"
+              ]
+         },
+         
+         {
+         "tag": "INDIAN BANK FARMER",
+         "patterns":[
+         "krishi infra fund",
+         "saur shakthi",
+         "pashudhan"
+         ],
+           "responses":[
+             "IND KISAN SAUR SHAKTHI (PM KUSUM):- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/ind-kisan-saur-shakthi-pm-kusum/\">Click here</a>",
+             "IND- KRISHI INFRA FUND (AGRICULTURE INFRA FUND):- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/ind-krishi-infra-fund-agriculture-infra-fund/\">Click here</a>",
+             "IND PASHUDHAN Mitra- Animal Husbandry Infrastructure Development Fund (AHIDF):- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/ind-pashudhan-mitra-the-animal-husbandry-infrastructure-development-fund-ahidf/\">Click here</a>"
+           ]
+         },
+         
+         {
+         "tag": "INDIAN BANK STORAGE & AGRO UNIT",
+         "patterns":[
+         "indian cold storage",
+         "cold storage schemes in indian",
+         "indian cold storage loan",
+         "agro unit in indian",
+         "processing unit in indian",
+         "storage facilities in indian",
+         "micro food processing enterprise",
+         "agro mills"
+         ],
+           "responses":[
+             "Food and Agro Processing:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/food-and-agro-processing/\">Click here</a>",
+             "IB Star Agro Mills (Rice Mill, Dhal Mill, Oil Mill and Flour Mill:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/ib-star-agro-mills-rice-mill-dhal-mill-oil-mill-flour-mill-ib-star-agro-mill-pan-india-cluster/\">Click here</a>",
+             "IND Micro Food Processing Enterprises- (PMFME):- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/ind-micro-food-processing-enterprises-pmfme/\">Click here</a>",
+             "Agricultural Godowns / Cold Storage:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/agricultural-godowns-cold-storage/\">Click here</a>"
+           ]
+         },
+         
+         {
+         "tag": "INDIAN BANK FARM VEHICLE",
+         "patterns":[
+         "indian farm machinery loan",
+         "farm machinery loan in indian",
+         "tractors in indian",
+         "krishi vaahan"
+         ],
+           "responses":[
+             "IND Krishi Vaahan:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/ind-krishi-vaahan/\">Click here</a>",
+             "Financing Agriculturists for Purchase of Tractors & Other Farm Machinery:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/financing-agriculturists-for-purchase-of-tractors/\">Click here</a>"
+          ]
+         },
+         
+         {
+            "tag": "INDIAN BANK DIARY",
+            "patterns":[
+           "diary loan in bob"
+            ],
+              "responses":[
+               "Dairy Loan:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/dairy-loan/\">Click here</a>"
+              ]
+         },
+         
+         {
+            "tag": "INDIAN BANK CREDIT CARD",
+            "patterns":[
+            "kcc in bob",
+            "credit card in bob",
+            "animal husbandry and fisheries cad in bob"
+            ],
+              "responses":[
+               "Kisan Credit Card (KCC):- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/rupay-kisan-card/\">Click here</a>",
+               "Kisan Credit Card (KCC) – Animal Husbandry and Fisheries:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/kisan-credit-card-kcc-animal-husbandry-and-fisheries/\">Click here</a>"
+             ]
+         },
+         
+         {
+         "tag": "INDIAN BANK AGRI CLINIC",
+         "patterns":[
+           "agri clinic in bob",
+           "agri business center in bob"
+         ],
+         "responses":[
+           "Agri Clinic and Agri Business Centres:- <a target=\"_blank\"href=\"https://www.indianbank.in/departments/agri-clinic-and-agri-business-centres\">Click here</a>"
+         ]
+         }
+
+    ]
+}
+
+
